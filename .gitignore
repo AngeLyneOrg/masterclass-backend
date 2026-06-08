@@ -1,0 +1,104 @@
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env/
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+local_settings.py
+migrations/*.py
+!migrations/__init__.py
+staticfiles/
+static/
+media/
+mediafiles/
+
+# FastAPI / Beanie / Motor
+*.pid
+.dockerignore
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+.project
+.pydevproject
+
+# Jupyter / Data exploration
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+*.cover
+*.test.db
+
+# Logs & temp files
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.secret
+*.key
+*.pem
+*.crt
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# OS specific
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Uploads / user content
+uploads/
+downloads/
+private_storage/
+
+# Monitoring / profiling
+profile*.png
+*.prof
+
+# Redis / Celery (if used later)
+dump.rdb
+celerybeat-schedule
+celerybeat.pid
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Docs / Build outputs
+dist/
+build/
+*.egg-info/
+*.whl
