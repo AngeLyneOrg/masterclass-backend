@@ -1,4 +1,4 @@
-# ⚙️ Ange Mastery - Intelligent Backend Ecosystem
+# ⚙️ MasterClass - Intelligent Backend Ecosystem
 
 ## 📝 Project Overview
 This repository centralizes the infrastructure and server logic for the **Ange Mastery** platform. It relies on a high-performance hybrid architecture combining a robust CMS for content management and an asynchronous server dedicated to real-time Artificial Intelligence services.
